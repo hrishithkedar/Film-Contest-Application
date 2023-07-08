@@ -1,0 +1,76 @@
+html{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmlsbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:gold;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+p{
+    text-align: center;
+    color: hotpink;
+    font-weight: 100;
+    margin-bottom: 25px;
+
+}
+#panel{
+    background-color: rgb(218, 225, 232,.5);
+    width: 50%;
+    height: 75%;;
+    margin: auto;
+    padding: 20px;
+    border-radius:4px;
+    padding-bottom: 30px;
+}
+#name-label,#email-label,#number-label,.text{
+    font-weight: 700;
+}
+#name{
+    border-bottom:5px;
+}
+#name,#email{
+    width: 90%;
+    height:22px;
+}
+button{
+    margin-top:45px;
+    width: 100%;
+    background-color: #216bb5;
+    height:25px;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bolder;
+    line-height: 2px;
+    transition:all 2ms;
+    
+}
+button:hover{
+    background-color:#116D6E;
+    
+}
+#txt{
+    margin-top:8px;
+    height:60px;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+#email-label{
+    margin-top:9px;
+    margin-bottom: 9px;
+}
+#number,#email,#name{
+    margin-bottom: 5px;
+}
+#dropdown{
+    margin-bottom:5px;
+}
+::placeholder{
+    font-family: 'Ysabeau SC', sans-serif;
+}

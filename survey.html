@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&family=Ysabeau+SC&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Film Contest</h1>
+    <p>Prove yourselves</p>
+    <div id="panel">
+        <form id="form">
+            <div>
+                <label for="name" id="name-label">Name</label>
+                <div><input type="text" id="name" placeholder="Enter your name:" minlength="5" required>
+                </div>
+
+
+            </div>
+            <div>
+                <label for="email" id="email-label">E-mail</label>
+                <div><input type="email" id="email" placeholder="E-Mail" minlength="5" required></div>
+
+
+            </div>
+            <div>
+                <label for="number" id="number-label">How many films u built</label>
+                <div><input type="number" id="number" value="three" placeholder="number" name="num" min="0" max="15"
+                        required></div>
+
+
+            </div>
+            <div class="text">Your Experience</div>
+            <div>
+                <select id="dropdown">
+                    <option>Had Experience</option>
+                    <option>First Time</option>
+
+                </select>
+            </div>
+            <div class="text">Genre</div>
+            <div class="radio"><input type="radio" name="radio" value="four" checked> Thriller</div>
+            <div class="radio"> <input type="radio" name="radio" value="five"> Romance</div>
+            <div class="radio"><input type="radio" name="radio" value="six"> Drama</div>
+            <div class="text">Field Of Interest</div>
+            <div class="checkbox"><input type="checkbox" name="checkbox" value="seven"> Direction</div>
+            <div class="checkbox"><input type="checkbox" name="checkbox" value="eight"> Acting</div>
+            <div class="checkbox"> <input type="checkbox" name="checkbox" value="nine"> Music</div>
+            <div class="checkbox"><input type="checkbox" name="checkbox" value="ten"> Cinematography</div>
+            <div class="checkbox"> <input type="checkbox" name="checkbox" value="eleven"> Editing</div>
+            <textarea type="text" placeholder="Remarks" id="txt"></textarea>
+            <div><button type="submit">Apply!</button></div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
